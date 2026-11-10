@@ -1,0 +1,3 @@
+# Reference solver for cross-checking PuLP/CBC only. Not needed to run the application.
+-r backend/requirements.txt
+scipy>=1.11,<2

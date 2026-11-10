@@ -1,0 +1,12 @@
+# Production dependencies (PDF slide 8 tool stack)
+pulp==2.8.0                  # LP and 0/1 IP modelling; solver: CBC (ships with PuLP)
+pandas>=2.1,<4               # data cleaning and aggregation
+numpy>=1.26,<3
+openpyxl>=3.1,<4             # Excel export
+matplotlib>=3.8,<4           # report figures
+seaborn>=0.13,<1             # report figures
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.20
+pytest>=8,<10
+httpx>=0.27,<1
